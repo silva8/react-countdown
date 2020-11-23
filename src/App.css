@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Lato', sans-serif;
+}
+
+.date-form {
+    height:             100vh;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+}
+
+.date-form label {
+    font-size:      24px;
+    font-weight:    200;
+}
+
+.date-form input {
+    display:        block;
+    margin-top:     5px;
+    border-radius:  5px;
+    border:         1px solid;
+    border-color: #dfe6e9;
+    width:          200px;
+    height:         30px;
+}
+
+.date-form input[type="submit"] {
+    background-color:   transparent;
+    color:            #9980FA;
+    border:             1px solid;
+    border-color:     #9980FA;
+    border-radius:      10px;
+}
+
+.date-form label{
+    margin: 10px 0;
+}
+
+.countdown-wrapper {
+    display:         flex;
+    flex-wrap:       wrap;
+    align-content:   center;
+    align-items:     center;
+    justify-content: center;
+    margin-top:      30vh;
+}
+
+.countdown-item {
+    font-size:      48px;
+    margin:         0 50px;
+    display:        flex;
+    flex-direction: column;
+    align-items:    center;
+}
+
+.countdown-item span {
+    color:        #333;
+    font-size:      12px;
+    font-weight:    600;
+    text-transform: uppercase;
+}
+
+.countdown-title {
+    margin-top:     50px;
+    text-align:     center;
+    font-size:      24px;
+}
+
+.countdown-event-name {
+    color:        #333;
+    font-size:      36px;
+    font-weight:    600;
+    text-transform: uppercase;
+}
+
+.go-back-button {
+    background-color:   transparent;
+    width:              70px;
+    height:             30px;
+    color:            #9980FA;
+    border:             1px solid;
+    border-color:     #9980FA;
+    border-radius:      10px;
+}
